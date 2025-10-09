@@ -1,0 +1,32 @@
+name: Generate GitHub Snake
+
+on:
+  schedule:
+    # daily at midnight UTC (you can adjust)
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-snake:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Generate snake image(s)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Commit generated files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: update github snake animation"
+          file_pattern: "dist/**/*"
