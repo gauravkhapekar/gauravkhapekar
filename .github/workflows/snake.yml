@@ -2,7 +2,7 @@ name: Generate GitHub Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # runs daily at midnight
+    - cron: "30 0 * * *" # runs daily at 12:30 AM UTC = 6:00 AM IST
   workflow_dispatch: # allows manual runs
 
 permissions:
