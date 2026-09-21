@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=gauravkhapekar" alt="gauravkhapekar" /></a> </p>
 
-- 🔭 I’m currently working on **Building Data Warehousing & Analytics Solutions using Snowflake, Power BI**
+- 🔭 I’m currently working on **Meeting Brain — an offline-first agentic knowledge base that turns meeting transcripts into decisions, action items, and queryable history — and LLM-based production monitoring/observability systems**
 
 - 🌱 I’m currently learning **CrewAI, LangGraph, FastMCP, and LLM Orchestration Frameworks**
 
@@ -15,7 +15,7 @@
 
 - 👨‍💻 All of my projects are available at [github.com/GauravKhapekar](github.com/GauravKhapekar)
 
-- 💬 Ask me about **How to turn complex data into stories (and sometimes memes) and Data Architecture (Medallion, ETL, Warehouse Design)**
+- 💬 Ask me about **Building agentic tools (dashboards, live write-back, reconciliation), and Data Architecture (Medallion, ETL, Warehouse Design)**
 
 - 📫 How to reach me **gauravkhapekar@gmail.com**
 
